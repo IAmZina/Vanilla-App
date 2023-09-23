@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8" />
@@ -30,6 +30,7 @@
                 </form>
                 <div class="overview">
                     <h1 id="city"></h1>
+                    <br>
                     <ul>
                         <li>Last updated: <span id="date"></span></li>
                         <li id="description"></li>
@@ -38,12 +39,10 @@
                 <div class="row">
                     <div class="col-6">
                         <div class="clearfix weather-temperature">
-                            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="Clear" id="icon"
-                                class="float-left" />
-                            <div class="float-left">
-                                <strong id="temperature"></strong><span class="units"><a href="#" id="celsius-link"
-                                        class="active">°C</a> |
-                                    <a href="#" id="fahrenheit-link">°F</a></span>
+                            <img src="" alt="Clear" id="icon" />
+                            <div>
+                                <strong id="temperature"></strong>
+                                <span class="units">°C</span>
                             </div>
                         </div>
                     </div>
@@ -53,15 +52,14 @@
                             <li>Wind: <span id="wind"></span> km/h</li>
                         </ul>
                     </div>
-
                 </div>
-                
+                <div class="weather-forecast" id="forecast">
                 </div>
-                <footer><a href="https://github.com/IAmZina/App" target="_blank" rel="noopener noreferrer">Open-source
-                        coded</a> by Zinakho Msele
-                </footer>
             </div>
+            <small><a href="https://github.com/IAmZina/Vanilla-App" target="_blank">Open-source coded</a>
+                by Zinakho Msele
         </div>
+    </div>
     </div>
     <script src="src/script.js"></script>
 </body>
